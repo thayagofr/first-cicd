@@ -22,3 +22,6 @@ jobs:
 
       - name: Display GO version
         run: go version
+
+      - name: Execute unit tests -verbose
+        run: go test ./... -v
